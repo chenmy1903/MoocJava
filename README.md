@@ -12,6 +12,8 @@
 
 > 构建时Java: JavaSE17
 
+[Releases下载](https://github.com/chenmy1903/MoocJava/releases)
+
 想体验效果的同学可以直接下载Jar包来运行, 下面这是class列表
 
 ```java
@@ -22,4 +24,14 @@ com.nkwjg.gui.AppGraphInOut //图形的输入输出
 com.nkwjg.ifswitch.LeapYear //闰年判断(if语句)
 com.nkwjg.ifswitch.GradeLevel //分数等级判断(switch语句)
 com.nkwjg.ifswitch.GradeLevelInput //可手动输入等级的分数等级判断(课程里没有)
+```
+
+## 运行
+
+> 需要下载JDK17和`MoocJava.jar`作为依赖, 且JDK17在PATH的第一位(如果安装多个Java)
+
+可以使用以下指令进行运行
+
+```batch
+java -cp "MoocJava.jar" <类名>
 ```
