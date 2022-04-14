@@ -1,0 +1,25 @@
+# 网易慕课Java程序设计源代码
+
+本代码并不是课程官方提供的代码, 仅为我(鸭皇)上课时写入的代码
+
+## 特色
+
+1. 全部为汉化版本
+2. 可以直接下载体验
+3. 不会显示玩家使用快捷键Ctrl+Z和Ctrl+C和Ctrl+D出现的错误
+
+## 下载
+
+> 构建时Java: JavaSE17
+
+想体验效果的同学可以直接下载Jar包来运行, 下面这是class列表
+
+```java
+com.nkwjg.helloworld.HelloWorldApp //HelloWorld (终端的输出)
+com.nkwjg.input.AppLineInOut //终端的输入(Java 1.4以下版本)
+com.nkwjg.input.ScannerTestInt //求平方程序 (仅支持JavaSE1.5+)
+com.nkwjg.gui.AppGraphInOut //图形的输入输出
+com.nkwjg.ifswitch.LeapYear //闰年判断(if语句)
+com.nkwjg.ifswitch.GradeLevel //分数等级判断(switch语句)
+com.nkwjg.ifswitch.GradeLevelInput //可手动输入等级的分数等级判断(课程里没有)
+```
