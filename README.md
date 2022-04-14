@@ -8,12 +8,25 @@
 2. 可以直接下载体验
 3. 不会显示玩家使用快捷键Ctrl+Z和Ctrl+C和Ctrl+D出现的错误
 4. 有本人写的小程序
+5. 对课程官方给的代码进行了修复, 修复极端情况下出现的错误
+6. 修复课程官方的代码编码问题
+7. 优化官方代码
+
+## 优化列表
+
+### AutoScore
+
+类名: `com.nkwjg.autoscore.AutoScoreApp`
+
+1. 增加自动换题功能
+2. 修复用户不答题报错的问题 (Error: `NumberFormatException`)
 
 ## 关于无法运行的问题
 
 1. 请将自己的Java升级到Java17
 2. 下载下来手动构建(推荐使用VS Code进行构建, 在终端敲代码太长了)
 3. 使用`java -cp "./bin" <类名>`进行运行
+
 
 ## 下载
 
@@ -31,6 +44,7 @@ com.nkwjg.gui.AppGraphInOut //平方计算器(图形化的输入输出)
 com.nkwjg.ifswitch.LeapYear //闰年判断(if语句)
 com.nkwjg.ifswitch.GradeLevel //分数等级判断(switch语句)
 com.nkwjg.ifswitch.GradeLevelInput //可手动输入等级的分数等级判断(课程里没有)
+com.nkwjg.autoscore.AutoScoreApp //出题机器人(修复版)
 ```
 
 ## 运行
