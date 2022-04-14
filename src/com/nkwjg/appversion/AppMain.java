@@ -3,7 +3,7 @@ package com.nkwjg.appversion;
 import javax.swing.JOptionPane;
 
 public class AppMain {
-    public static String version = "1.1";
+    public static String version = "1.2";
     static String msg = "";
 
     public static void main(String[] args) {
