@@ -109,7 +109,7 @@ public class AutoScoreApp extends JFrame {
 	void btnJudge_ActionPerformed(java.awt.event.ActionEvent event) {
 		String str = txtAnswer.getText().replace(" ", "");
 		String disp;
-		Boolean not_error = false; //手滑模式
+		Boolean error = false; //手滑模式
 		try {
 			double d = Double.valueOf(str).doubleValue();
 			disp = "" + a + op + b + "=" + str + " ";
@@ -118,15 +118,11 @@ public class AutoScoreApp extends JFrame {
 			else
 				disp += "×";
 		} catch (NumberFormatException e) {
-			if (str == "") {
-				disp = "" + a + op + b + "  ->未作答";
-			} else {
-				disp = "" + a + op + b + "  ->输入错误";
-				not_error = true;
-			}
+			disp = "" + a + op + b + "  ->输入错误";
+			error = true;
 		}
 		listDisp.add(disp);
-		if (!not_error) {
+		if (!error) {
 			btnNew_ActionPerformed(null);
 		}
 	}
