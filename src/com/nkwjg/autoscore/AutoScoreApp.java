@@ -25,15 +25,15 @@ public class AutoScoreApp extends JFrame {
 		getContentPane().add(btnJudge);
 		btnJudge.setBackground(java.awt.Color.lightGray);
 		btnJudge.setBounds(216, 96, 94, 25);
-		lblA.setText("text");
+		lblA.setText("按");
 		getContentPane().add(lblA);
 		lblA.setFont(new Font("Dialog", Font.PLAIN, 24));
 		lblA.setBounds(36, 24, 36, 36);
-		lblOp.setText("text");
+		lblOp.setText("出题");
 		getContentPane().add(lblOp);
 		lblOp.setFont(new Font("Dialog", Font.PLAIN, 24));
 		lblOp.setBounds(72, 24, 36, 36);
-		lblB.setText("text");
+		lblB.setText("按钮");
 		getContentPane().add(lblB);
 		lblB.setFont(new Font("Dialog", Font.PLAIN, 24));
 		lblB.setBounds(108, 24, 33, 36);
@@ -47,13 +47,9 @@ public class AutoScoreApp extends JFrame {
 		listDisp.setFont(new Font("Dialog", Font.PLAIN, 16));
 		getContentPane().add(listDisp);
 		listDisp.setBounds(36, 144, 272, 106);
-		// }}
-
-		// {{REGISTER_LISTENERS
 		SymAction lSymAction = new SymAction();
 		btnNew.addActionListener(lSymAction);
 		btnJudge.addActionListener(lSymAction);
-		// }}
 	}
 
 	// {{DECLARE_CONTROLS
@@ -111,8 +107,9 @@ public class AutoScoreApp extends JFrame {
 	double result = 0;
 
 	void btnJudge_ActionPerformed(java.awt.event.ActionEvent event) {
-		String str = txtAnswer.getText();
+		String str = txtAnswer.getText().replace(" ", "");
 		String disp;
+		Boolean not_error = false; //手滑模式
 		try {
 			double d = Double.valueOf(str).doubleValue();
 			disp = "" + a + op + b + "=" + str + " ";
@@ -121,10 +118,17 @@ public class AutoScoreApp extends JFrame {
 			else
 				disp += "×";
 		} catch (NumberFormatException e) {
-			disp = "" + a + op + b + "  ->未作答";
+			if (str == "") {
+				disp = "" + a + op + b + "  ->未作答";
+			} else {
+				disp = "" + a + op + b + "  ->输入错误";
+				not_error = true;
+			}
 		}
 		listDisp.add(disp);
-		btnNew_ActionPerformed(null);
+		if (!not_error) {
+			btnNew_ActionPerformed(null);
+		}
 	}
 
 	public static void main(String[] args) {
