@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class GradeLevelInput {
     private void run() throws IOException {
+        System.out.println("请输入分数等级: ");
         char grade = (char) System.in.read();
         switch (grade) {
             case 'A':
