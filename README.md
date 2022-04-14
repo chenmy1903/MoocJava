@@ -26,10 +26,18 @@ Applet我的浏览器无法运行, 所以无法调试这一部分的代码
 
 类名: `com.nkwjg.autoscore.AutoScoreApp`
 
+标准修复版修复内容:
+
 1. 增加自动换题功能
 2. 修复用户不答题报错的问题 (Error: `NumberFormatException`)
 4. 修复非常不美观的`text`文字 (修改为`按出题按钮`, `按钮`显示不出来, 所以变成了`按出题`)
 5. 增加手滑模式(多输入不是`int`的文字不会报错)
+
+特性修复版修复内容:
+
+1. 修复除法算式出现除不尽的情况
+2. 修复开始的结果是0的Bug
+3. 支持结果显示(答错的情况下)
 
 ## 关于无法运行的问题
 
@@ -54,7 +62,8 @@ com.nkwjg.gui.AppGraphInOut //平方计算器(图形化的输入输出)
 com.nkwjg.ifswitch.LeapYear //闰年判断(if语句)
 com.nkwjg.ifswitch.GradeLevel //分数等级判断(switch语句)
 com.nkwjg.ifswitch.GradeLevelInput //可手动输入等级的分数等级判断(课程里没有)
-com.nkwjg.autoscore.AutoScoreApp //出题机器人(修复版)
+com.nkwjg.autoscore.AutoScoreApp //出题机器人(修复版, 但保留原版特性)
+com.nkwjg.autoscore.AutoScoreAppFixed //出题机器人(修复原版特性版)
 ```
 
 ## 运行
