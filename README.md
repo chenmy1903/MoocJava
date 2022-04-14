@@ -7,6 +7,7 @@
 1. 全部为汉化版本
 2. 可以直接下载体验
 3. 不会显示玩家使用快捷键Ctrl+Z和Ctrl+C和Ctrl+D出现的错误
+4. 有本人写的小程序
 
 ## 下载
 
@@ -20,7 +21,7 @@
 com.nkwjg.helloworld.HelloWorldApp //HelloWorld (终端的输出)
 com.nkwjg.input.AppLineInOut //终端的输入(Java 1.4以下版本)
 com.nkwjg.input.ScannerTestInt //求平方程序 (仅支持JavaSE1.5+)
-com.nkwjg.gui.AppGraphInOut //图形的输入输出
+com.nkwjg.gui.AppGraphInOut //平方计算器(图形化的输入输出)
 com.nkwjg.ifswitch.LeapYear //闰年判断(if语句)
 com.nkwjg.ifswitch.GradeLevel //分数等级判断(switch语句)
 com.nkwjg.ifswitch.GradeLevelInput //可手动输入等级的分数等级判断(课程里没有)
