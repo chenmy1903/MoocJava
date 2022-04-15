@@ -88,7 +88,7 @@ Applet我的浏览器无法运行, 所以无法调试这一部分的代码
 
 > Jar包主类: `com.nkwjg.appversion.AppMain`
 
-```java
+```java 
 com.nkwjg.helloworld.HelloWorldApp //HelloWorld (终端的输出)
 com.nkwjg.input.AppLineInOut //终端的输入(Java 1.4以下版本)
 com.nkwjg.input.ScannerTestInt //求平方程序 (仅支持JavaSE1.5+)
@@ -101,6 +101,8 @@ com.nkwjg.autoscore.AutoScoreAppFixed //出题机器人(修复原版特性版)
 com.nkwjg.loopmethod.ForMethod //for循环示例
 com.nkwjg.loopmethod.WhileMethod //while循环示例
 com.nkwjg.loopmethod.DoWhileMethod //do...while循环示例
+com.nkwjg.loopmethod.ForBreakMethod //break语句示例
+com.nkwjg.loopmethod.ForContinueMethod //continue语句示例
 com.nkwjg.paintcircle.CircleFrame //99个圆示例
 ```
 
