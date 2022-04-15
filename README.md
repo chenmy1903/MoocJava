@@ -2,6 +2,12 @@
 
 本代码并不是课程官方提供的代码, 仅为我(鸭皇)上课时写入的代码
 
+## 更新时间
+
+> 作者得上学, 所以更不了太多, 我会尽力去更新
+
+每天都会至少更新2个程序, 休息日至少更新6个
+
 ## 特色
 
 > 因为本人没有学完, 所以只更新了前三章的内容
@@ -103,6 +109,7 @@ com.nkwjg.loopmethod.WhileMethod //while循环示例
 com.nkwjg.loopmethod.DoWhileMethod //do...while循环示例
 com.nkwjg.loopmethod.ForBreakMethod //break语句示例
 com.nkwjg.loopmethod.ForContinueMethod //continue语句示例
+com.nkwjg.loopmethod.PrimeContinue //100-200之间的的质数
 com.nkwjg.paintcircle.CircleFrame //99个圆示例
 ```
 
