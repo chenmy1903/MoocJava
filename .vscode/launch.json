@@ -1,0 +1,161 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppMain",
+            "request": "launch",
+            "mainClass": "com.nkwjg.appversion.AppMain",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch AutoScoreApp",
+            "request": "launch",
+            "mainClass": "com.nkwjg.autoscore.AutoScoreApp",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch AutoScoreAppFixed",
+            "request": "launch",
+            "mainClass": "com.nkwjg.autoscore.AutoScoreAppFixed",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppGraphInOut",
+            "request": "launch",
+            "mainClass": "com.nkwjg.gui.AppGraphInOut",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorldApp",
+            "request": "launch",
+            "mainClass": "com.nkwjg.helloworld.HelloWorldApp",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradeLevel",
+            "request": "launch",
+            "mainClass": "com.nkwjg.ifswitch.GradeLevel",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradeLevelInput",
+            "request": "launch",
+            "mainClass": "com.nkwjg.ifswitch.GradeLevelInput",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeapYear",
+            "request": "launch",
+            "mainClass": "com.nkwjg.ifswitch.LeapYear",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppLineInOut",
+            "request": "launch",
+            "mainClass": "com.nkwjg.input.AppLineInOut",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerTestInt",
+            "request": "launch",
+            "mainClass": "com.nkwjg.input.ScannerTestInt",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoWhileMethod",
+            "request": "launch",
+            "mainClass": "com.nkwjg.loopmethod.DoWhileMethod",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForBreakMethod",
+            "request": "launch",
+            "mainClass": "com.nkwjg.loopmethod.ForBreakMethod",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForContinueMethod",
+            "request": "launch",
+            "mainClass": "com.nkwjg.loopmethod.ForContinueMethod",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForMethod",
+            "request": "launch",
+            "mainClass": "com.nkwjg.loopmethod.ForMethod",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeContinue",
+            "request": "launch",
+            "mainClass": "com.nkwjg.loopmethod.PrimeContinue",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileMethod",
+            "request": "launch",
+            "mainClass": "com.nkwjg.loopmethod.WhileMethod",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircleFrame",
+            "request": "launch",
+            "mainClass": "com.nkwjg.paintcircle.CircleFrame",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitwiseOperators",
+            "request": "launch",
+            "mainClass": "com.nkwjg.vartype.BitwiseOperators",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaPAplusplus",
+            "request": "launch",
+            "mainClass": "com.nkwjg.vartype.JavaPAplusplus",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaPBoolean",
+            "request": "launch",
+            "mainClass": "com.nkwjg.vartype.JavaPBoolean",
+            "projectName": "MoocJava_37dc08c1"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestType",
+            "request": "launch",
+            "mainClass": "com.nkwjg.vartype.TestType",
+            "projectName": "MoocJava_37dc08c1"
+        }
+    ]
+}
