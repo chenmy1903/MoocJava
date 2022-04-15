@@ -86,6 +86,8 @@ Applet我的浏览器无法运行, 所以无法调试这一部分的代码
 
 想体验效果的同学可以直接下载Jar包来运行, 下面这是class列表
 
+> Jar包主类: `com.nkwjg.appversion.AppMain`
+
 ```java
 com.nkwjg.helloworld.HelloWorldApp //HelloWorld (终端的输出)
 com.nkwjg.input.AppLineInOut //终端的输入(Java 1.4以下版本)
