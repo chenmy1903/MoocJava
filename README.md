@@ -8,6 +8,14 @@
 
 每天都会至少更新2个程序, 休息日至少更新6个
 
+## 由开源社区提供的教程
+
+> 请注意: 本教程跟网易没有关系
+
+你可以加入这个教程的编辑中, 期待更多人的加入
+
+[点击前往Wiki](https://github.com/chenmy1903/MoocJava/wiki)
+
 ## 多Java支持
 
 > 考虑到有些同学会根据课程去下载JDK1.8, 所以这个项目以后将会对JavaSE1.8进行支持
@@ -107,7 +115,9 @@ Applet我的浏览器无法运行, 所以无法调试这一部分的代码
 
 [Releases下载](https://github.com/chenmy1903/MoocJava/releases)
 
-想体验效果的同学可以直接下载Jar包来运行, 下面这是class列表
+想体验效果的同学可以直接下载Jar包来运行, [点击查看class列表](#class列表)
+
+## class列表
 
 > Jar包主类: `com.nkwjg.appversion.AppMain`
 
@@ -128,6 +138,17 @@ com.nkwjg.loopmethod.ForBreakMethod //break语句示例
 com.nkwjg.loopmethod.ForContinueMethod //continue语句示例
 com.nkwjg.loopmethod.PrimeContinue //100-200之间的的质数
 com.nkwjg.paintcircle.CircleFrame //99个圆示例
+```
+
+## 无作用的class
+
+> 仅作演示, 不建议运行, 建议看代码进行学习
+
+```java
+com.nkwjg.vartype.TestType //Java中的各种类型
+com.nkwjg.vartype.BitwiseOperators //二进制操作符
+com.nkwjg.vartype.JavaPBoolean //boolean的实现(请配合javap食用)
+com.nkwjg.vartype.JavaPAplusplus //复杂的假发(请配合javap食用)
 ```
 
 ## 运行
