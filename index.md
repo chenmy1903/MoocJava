@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# 网易`Java程序设计`源代码
 
-You can use the [editor on GitHub](https://github.com/chenmy1903/MoocJava/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+更多信息请见GitHub, 点击上方按钮直达
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## JDK的下载及安装
 
-### Markdown
+> Wiki里也有, 就是不想让你们走弯路(把JDK下成JRE)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+以下是几种JDK下载渠道(点击链接前往下载页面)
 
-```markdown
-Syntax highlighted code block
+1. [Amazon Corretto](https://aws.amazon.com/corretto)
+2. [Azul Zulu](https://www.azul.com/downloads/?package=jdk)
+3. [Eclipse Adoptium's Temurin](https://adoptium.net/)
+4. [Microsoft Build of OpenJDK](https://docs.microsoft.com/zh-cn/java/openjdk/download)
+5. [Oracle Java SE](https://www.oracle.com/java/technologies/downloads/)
+6. [Red Hat build of OpenJDK](https://developers.redhat.com/products/openjdk/download)
+7. [SapMachine](https://sapmachine.io/)
 
-# Header 1
-## Header 2
-### Header 3
+其中的`Microsoft OpenJDK`仅提供JDK11以上版本, `Oracle Java SE`为官方版本
 
-- Bulleted
-- List
+可以[点击这里](https://download.fastgit.org/adoptium/temurin17-binaries/releases/download/jdk-17.0.2+8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.2_8.msi)直接下载`Adoptium 's Temurin`的JDK17版本
 
-1. Numbered
-2. List
+### 安装JDK
 
-**Bold** and _Italic_ and `Code` text
+> 建议安装选项: 关联Jar文件, 添加到PATH, 设置JAVA_HOME环境变量
 
-[Link](url) and ![Image](src)
-```
+傻瓜式安装, 在座的各位应该没有不会的
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### 测试安装
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chenmy1903/MoocJava/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Win+R打开运行, 输入`cmd` (Linux和Mac则是打开Terminal)
+2. 在打开的窗口里输入`java -version`
+3. 如果出现的是Java的版本号, 就安装成功了(OpenJDK版本信息显示的为OpenJDK, OracleJDK显示为Java)
