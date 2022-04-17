@@ -154,7 +154,8 @@ com.nkwjg.paintcircle.CircleFrame //99个圆示例
 com.nkwjg.vartype.TestType //Java中的各种类型
 com.nkwjg.vartype.BitwiseOperators //二进制操作符
 com.nkwjg.vartype.JavaPBoolean //boolean的实现(请配合javap食用)
-com.nkwjg.vartype.JavaPAplusplus //复杂的假发(请配合javap食用)
+com.nkwjg.vartype.JavaPAplusplus //复杂的加法(请配合javap食用)
+com.nkwjg.array.NewArray //数组的示例
 ```
 
 ## 运行
