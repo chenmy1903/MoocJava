@@ -152,11 +152,11 @@ class User {
 }
 
 class Bank {
-    private User[] users = new User[10];
+    private User[] users = new User[114514];
     private int numberCount = 0;
 
     public User addUser(int userName, int passWord) {
-        if (numberCount >= 10) {
+        if (numberCount >= 114514) {
             System.out.println("银行过于火爆, 请按Ctrl+C清除所有账户以继续");
         }
         if (getUserByName(userName) == null) {
