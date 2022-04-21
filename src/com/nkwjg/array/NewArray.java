@@ -13,6 +13,7 @@ public class NewArray {
         a[0] = 3;
         a[1] = 9;
         a[2] = 8;
+        System.out.println(a[0]);
 
         MyDate[] dates = new MyDate[3];
         dates[0] = new MyDate(22, 7, 1964);

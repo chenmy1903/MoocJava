@@ -8,6 +8,12 @@
 
 每天都会至少更新2个程序, 休息日至少更新6个
 
+## 关于阉割了部分内容的声明
+
+> 考试部分不会公布包名
+
+有的部分真的太简单了, 我懒得敲这部分的代码
+
 ## 讨论区
 
 加入讨论区请遵守讨论区规则
@@ -131,7 +137,7 @@ Applet我的浏览器无法运行, 所以无法调试这一部分的代码
 com.nkwjg.helloworld.HelloWorldApp //HelloWorld (终端的输出)
 com.nkwjg.input.AppLineInOut //终端的输入(Java 1.4以下版本)
 com.nkwjg.input.ScannerTestInt //求平方程序 (仅支持JavaSE1.5+)
-com.nkwjg.gui.AppGraphInOut //平方计算器(图形化的输入输出)
+com.nkwjg.input.AppGraphInOut //平方计算器(图形化的输入输出)
 com.nkwjg.ifswitch.LeapYear //闰年判断(if语句)
 com.nkwjg.ifswitch.GradeLevel //分数等级判断(switch语句)
 com.nkwjg.ifswitch.GradeLevelInput //可手动输入等级的分数等级判断(课程里没有)

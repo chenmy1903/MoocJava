@@ -1,4 +1,4 @@
-package com.nkwjg.gui;
+package com.nkwjg.input;
 
 import java.awt.*;
 import java.awt.event.*;
