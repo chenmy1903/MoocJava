@@ -126,6 +126,8 @@ class User {
         if (pass == passWord) {
             System.out.println("取钱成功");
             qqcoin -= a648;
+        } else {
+            System.out.println("密码错误");
         }
     }
 
@@ -142,6 +144,8 @@ class User {
             System.out.println("充值成功");
             qqcoin += a648;
             System.out.println("");
+        } else {
+            System.out.println("密码错误");
         }
     }
 
